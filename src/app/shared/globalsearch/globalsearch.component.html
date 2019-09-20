@@ -1,0 +1,19 @@
+<div class="search-ddl-wrapper col-lg-12" >
+              
+         <div class='search-ddl-input input-group margin-b-0 dropdown'>
+        <!-- <input type='search' readonly class='form-control search' placeholder='Search for' (keyup)="onClick($event)" [class.font20]="!isHeaderDropdown" [(ngModel)]="name" [disabled]="isReadonly">  -->
+
+      <div *ngIf="options && options.showList" class='search-ddl-con dropdown-menu col-md-12 col-sm-12 col-lg-12 pad-0'>
+          <div *ngIf="filteredItems && filteredItems.length>0" class="list-group">
+              <a *ngFor="let item of filteredItems" class="list-group-item"  (click)="onClickSlected($event,item)">
+                      <div class="pull-left">
+                          <span>{{item[options.textKey]}}</span>                       
+                       </div>
+                      <div class="clearfix"></div>
+              </a>
+          </div>
+      </div>
+     </div>
+</div>
+
+

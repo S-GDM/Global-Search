@@ -1,0 +1,120 @@
+
+
+
+
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+  <div class="wellContentBox">
+
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding form-group">
+
+          <div class="input-group search-group">
+              <app-globalsearch [isReadonly]="isReadonly" [items]="clientData" (onSelect)="onClientSearchEvent($event)" [options]="clientOptions" [selected]="selectedClient" [isHeaderDropdown]="false" >
+              </app-globalsearch>
+              <div class="input-group-append" >
+                  <a class="dropdown-toggle selectSearch" id="dropdownMenu1"  data-toggle="dropdown"><span class="caret"></span></a>
+                  <ul class="dropdown-menu dropdown-menu-right searchBox" >
+                      <li>
+                          <form  class="form" #GlobalSearchForm="ngForm" (ngSubmit)="GetFilterdata(GlobalSearchForm)">
+
+                              <div class="form-group col-lg-12" (click)="$event.stopPropagation()" style="margin-top:25px;">
+                                  <div class="col-lg-2 margintop5">
+                                      <label class="control-label">Officer</label>
+                                  </div>
+                                  <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 mob-padding">
+                                         
+                                      <select class="form-control"  name="officerId" [(ngModel)]="GlobalSearchForm.officerId" #officerId="ngModel">
+                                               <!-- <option  Value="0" selected="selected">Select Officer</option>  -->
+                                              <!-- <option *ngFor="let ListData of GlobalSearchOfficerlist"
+                                                      value="{{ListData.officerId}}">{{ListData.officerFullName}}</option> -->
+                                                      <option>Select Officer</option>
+                                                      <option>ArtJordan</option>
+                                                      <option>Chrisgayle</option>
+                                      </select>
+
+                                  </div>
+                              </div>
+
+                              <div class="form-group col-lg-12 rel " (click)="$event.stopPropagation()">
+                                  <div class="col-lg-2 margintop5">
+                                      <label class="control-label" for="email">Client</label>
+                                  </div>
+                                  <div class="col-lg-10">
+                                      
+                                      <select class="form-control"  name="clientId" (change)="onChange($event.target.value)" [(ngModel)]="GlobalSearchForm.clientId" #clientId="ngModel">
+                                              <!-- <option value="0">Select Client</option> -->
+                                              <!-- <option *ngFor="let ListData of GlobalSearchClientlist"
+                                                      value="{{ListData.clientId}}">{{ListData.clientCompany}}</option> -->
+                                                      <option>Select Client</option>
+                                                      <option>Stixis technologies</option>
+                                                      <option>HCL GlobalTechnologies</option>
+                                                      <option>Falcrum Technologies</option>
+
+                                      </select>
+
+                                  </div>
+                              </div>
+
+                              <div class="form-group col-lg-12 " (click)="$event.stopPropagation()">
+                                  <div class="col-lg-2 margintop5">
+                                      <label class="control-label" for="email">Site</label>
+                                  </div>
+                                  <div class="col-lg-10">
+                                      <select class="form-control" name="clientsiteId" [(ngModel)]="GlobalSearchForm.clientsiteId" #clientsiteId="ngModel">
+                                          <!-- <option value="0">Select Clientsite</option> -->
+                                          <!-- <option *ngFor="let ListData of GlobalSearchClientSitelist"
+                                                  value="{{ListData.clientsiteId}}">{{ListData.clientsiteName}}</option> -->
+                                                  <option>Select Site</option>
+                                                  <option>Jayanagar</option>
+                                                  <option>Marthalli</option>
+                                                  <option>HSR Layout</option>
+                                      </select>
+
+                                  </div>
+                              </div>
+
+                              <div class="form-group col-lg-12 " (click)="$event.stopPropagation()">
+                                  <div class="col-lg-2 margintop5">
+                                      <label class="control-label" > From Date</label>
+                                  </div>
+                                  <div class="col-lg-10">                                        
+                                      <input type="date"  mwlFlatpickr  [enableTime]="false"  dateformat="Y-m-dTH:i" altFormat="Y-m-dTH:i" [altInput]="true" class="form-control"  name="Fromdate" #Fromdate="ngModel" [(ngModel)]="GlobalSearchForm.Fromdate" >
+                                  </div>
+                              </div>
+
+                              <div class="form-group col-lg-12 " (click)="$event.stopPropagation()">
+                                  <div class="col-lg-2 margintop5">
+                                      <label class="control-label" >To Date</label>
+                                  </div>
+                                  <div class="col-lg-10">
+                                      <input type="date"  mwlFlatpickr   dateformat="Y-m-dTH:i" enableTime="true" altFormat="Y-m-dTH:i" altInput=true class="form-control" name="Todate" #Todate="ngModel" [(ngModel)]="CreateGlobalsearch.Todate"  aria-describedby="basic-addon1">
+                                      
+                                  </div>
+                              </div>
+
+                              <div class="col-lg-12 nopadding">
+                                  <div class=" col-lg-4 col-md-6 col-xs-12 col-sm-5 col-lg-offset-8 form-group">
+                                      <button type="submit" class="btn formsubBtn" style="margin-right: 3px;">Submit</button>
+                                      <button type="button" (click)="ResetSearchForm(GlobalSearchForm)" class="btn formsubBtn" (click)="$event.stopPropagation()">Reset</button>
+                                  </div>
+                              </div>
+
+
+                          </form>
+                      </li>
+
+                  </ul>
+              </div>
+
+          </div>
+
+      </div>
+
+      
+
+     
+      <div class="clearfix"></div>
+  </div>
+  <!-- End of wellContentBox -->
+</div>

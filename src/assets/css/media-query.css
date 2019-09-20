@@ -1,0 +1,634 @@
+/************************************************************************************
+smaller than 2560
+*************************************************************************************/
+
+@media screen and (min-width:1921px) and (max-width:2560px) {
+    .login-main,
+    .main {
+        width: 100%;
+    }
+    .mainBody .pieChartWell {
+        min-height: 720px;
+    }
+    .mainBody .pieChartWell canvas {
+        margin-top: 4em;
+    }
+    .mainBody .trialContentBox .chooseBox {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+/************************************************************************************
+smaller than 1920
+*************************************************************************************/
+
+@media screen and (max-width:1920px) {
+    .gridBody a {
+        min-height: 170px;
+    }
+    .header .top-menu a span.txtValue {
+        top: 6px;
+        left: 9px;
+        font-size: 13px;
+    }
+}
+
+
+/************************************************************************************
+smaller than 1680px
+*************************************************************************************/
+
+@media screen and (max-width:1680px) {
+    .login-main {
+        width: 100%;
+    }
+    .main {
+        width: 100%;
+    }
+    .dash-content .dash .dashbox h1 {
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+    .dash-content .dash .dashboxContent .contentBg,
+    .dash-content .dash .dashboxContent .contentBgLight {
+        font-size: 22px;
+    }
+    .tbl_InvoiceOverview .table-bordered>thead>tr>th {
+        font-size: 13px;
+    }
+    .homeBody h4 {
+        width: 50%;
+    }
+    .slide-menu .sideMenuheader h4 {
+        text-overflow: ellipsis;
+        /* Required for text-overflow to do anything */
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .main .left-col.open .slide-menu ul.innerMenu li a {
+        text-overflow: ellipsis;
+        /* Required for text-overflow to do anything */
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    /* .header .top-menu a
+	{
+		font-size:22px;	
+	} */
+    .header .top-menu a span.txtValue {
+        top: 8px;
+        left: 9px;
+    }
+    .mainBody .trialContentBox .chooseBox {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+/************************************************************************************
+smaller than 1440px
+*************************************************************************************/
+
+@media screen and (max-width:1440px) {
+    .homeBody h4 {
+        width: 60%;
+    }
+    /*********  CSS for LEFT SIDE MENU ***********/
+    .main .left-col {
+        width: 20% !important;
+    }
+    .main .right-col {
+        width: 80% !important;
+    }
+    .main .left-toggle {
+        top: 5px;
+    }
+    .main .left-col.open .left-toggle {
+        top: 0px;
+    }
+    /*********  END OF CSS for LEFT SIDE MENU ***********/
+    .reg-bg {
+        width: 80%;
+    }
+    .login-main .homeBody {
+        padding: 0px 5%;
+    }
+    .gridBody a .menuCircle {
+        margin: 5px auto;
+    }
+    .mainGrid {
+        width: 95%;
+    }
+    .offDashGrid {
+        width: 100%;
+    }
+}
+
+
+/************************************************************************************
+smaller than 1366
+*************************************************************************************/
+
+@media screen and (max-width:1366px) {
+    .header ul.top-menu>li.dropdown {
+        padding: 26px 20px;
+    }
+    .body-content .form-well {
+        padding: 5%;
+    }
+    .tabContent .tab-content>.tab-pane .well {
+        padding: 15px;
+    }
+    .dash-content .dash .dashbox h1,
+    .dash-content .dash .dashboxContent .contentBg,
+    .dash-content .dash .dashboxContent .contentBgLight {
+        font-size: 18px;
+    }
+    .dash-content .dash .dashbox img {
+        margin-top: 10px;
+    }
+    .gridBody {
+        width: 85%;
+    }
+    .mainGrid .gridBody {
+        width: 95%;
+    }
+}
+
+
+/************************************************************************************
+smaller than 1280
+*************************************************************************************/
+
+@media screen and (max-width:1280px) {
+    .header {
+        min-height: 95px;
+    }
+    .header ul.top-menu>li.dropdown {
+        padding: 20px 15px 20px;
+    }
+    .homeBody h4 {
+        width: 70%;
+    }
+}
+
+
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+
+@media screen and (max-width:1024px) {
+    .md-nopadding {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .md-padd-left-zero {
+        padding-left: 0px !important;
+    }
+    .md-padd-right-zero {
+        padding-right: 0px !important;
+    }
+    .md-padd-left-15 {
+        padding-left: 15px !important;
+    }
+    .md-padd-right-15 {
+        padding-right: 15px !important;
+    }
+    .md-extra-margin {
+        margin-top: 10px !important;
+    }
+    .logoImg img {
+        margin: 0 auto;
+    }
+    /*  TO CREATE MENU COLLAPSIBLE */
+    .mainMenu .navbar-default .navbar-nav {
+        margin: 0;
+        width: 100%;
+        border-top: 1px solid #1f4d79;
+        border-bottom: 1px solid #1f4d79;
+        padding: 5px 0px;
+    }
+    .mainMenu .navbar-light .navbar-nav .active>.nav-link,
+    .mainMenu .navbar-light .navbar-nav .nav-link.active {
+        color: #00a6f6;
+    }
+    .mainMenu .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .mainMenu .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .mainMenu .collapse {
+        padding: 0px;
+    }
+    .mainMenu .collapse.in {
+        display: block !important;
+    }
+    .mainMenu .collapsing {
+        padding: 0px;
+    }
+    .mainMenu .navbar-toggle.collapsed {
+        display: block;
+    }
+    .mainMenu .nav {
+        float: none;
+        border-bottom: 0px solid transparent;
+    }
+    /*.mainMenu .navbar .navbar-nav > li
+		{
+			width:100%;	
+		}*/
+    .mainMenu .navbar .navbar-nav>li>a {
+        font-size: 20px;
+        padding: 10px 5px;
+        text-align: left;
+    }
+    .header .navbar .navbar-nav>li>a>img {
+        display: none;
+    }
+    .mainMenu .navbar-default .navbar-nav>li.active::after {
+        top: 35px;
+    }
+    /*  END OF TO CREATE MENU COLLAPSIBLE */
+    .homeBody h4 {
+        width: 80%;
+    }
+    .reg-bg {
+        width: 90%;
+    }
+    .body-content .well .panel-default {
+        margin-bottom: 15px;
+    }
+    .body-content .well .panel-default .rate-box {
+        margin: 5% auto;
+    }
+    .body-content .well {
+        padding-bottom: 5px;
+    }
+    .body-content .well .table-bordered,
+    .body-content .well .table-bordered>tbody>tr>td,
+    .body-content .well .table-bordered>thead>tr>th {
+        border: 1px solid #999;
+    }
+    .body-content .well .panel-content ul.reportDetail {
+        min-height: 250px;
+    }
+    .body-content .well .panel-content .border-right:nth-child(2n) {
+        border: 0px solid transparent;
+    }
+    .header {
+        min-height: 30px;
+    }
+    /*********  CSS for LEFT SIDE MENU ***********/
+    .main .left-col {
+        width: 33.33% !important;
+        position: absolute;
+        z-index: 99999;
+        margin-left: -35%;
+    }
+    .main .left-col.open {
+        margin-left: 0%;
+        position: absolute;
+        width: 33.33% !important;
+        z-index: 99999;
+    }
+    .main .right-col {
+        width: 100% !important;
+        margin-left: 0%;
+    }
+    .main .right-col.open {
+        width: 100% !important;
+    }
+    .main .right-col.open .left-toggle {
+        background-color: transparent;
+        padding: 0px;
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        top: 45px;
+        left: 35%;
+        right: unset;
+        color: #618afe;
+        font-size: 22px;
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+        -webkit-transition: all 0.45s ease;
+        -moz-transition: all 0.45s ease;
+        -ms-transition: all 0.45s ease;
+        -o-transition: all 0.45s ease;
+        transition: all 0.45s ease;
+    }
+    .main .right-col .left-toggle {
+        background-color: transparent;
+        padding: 0px;
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        top: 45px;
+        left: 10px;
+        right: unset;
+        color: #618afe;
+        font-size: 22px;
+        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+        -webkit-transition: all 0.35s ease-out;
+        -moz-transition: all 0.35s ease-out;
+        -ms-transition: all 0.35s ease-out;
+        -o-transition: all 0.35s ease-out;
+        transition: all 0.35s ease-out;
+    }
+    .main .right-col .left-toggle .fa-eye,
+    .main .right-col.open .left-toggle .fa-low-vision {
+        display: block;
+        -webkit-transition: all 0.45s ease;
+        -moz-transition: all 0.45s ease;
+        -ms-transition: all 0.45s ease;
+        -o-transition: all 0.45s ease;
+        transition: all 0.45s ease;
+    }
+    .main .right-col .left-toggle .fa-low-vision,
+    .main .right-col.open .left-toggle .fa-eye {
+        display: none;
+        -webkit-transition: all 0.35s ease-out;
+        -moz-transition: all 0.35s ease-out;
+        -ms-transition: all 0.35s ease-out;
+        -o-transition: all 0.35s ease-out;
+        transition: all 0.35s ease-out;
+    }
+    .main .left-col .slide-menu .menuHeader figure img.closedImg,
+    .main .left-col.open .slide-menu .menuHeader figure img.openedImg {
+        display: block;
+    }
+    .main .left-col.open .panel-default>.panel-heading a span.menuTxt {
+        display: block;
+    }
+    .main .left-col.open .slide-menu .panel-default>.panel-heading a img {
+        margin-right: 10px;
+        float: left;
+    }
+    .slide-menu .panel-default>.panel-heading .panel-title>a {
+        position: relative;
+    }
+    .main .left-col.open .slide-menu ul.innerMenu li a {
+        padding: 12px 5px 12px 45px;
+    }
+    .slide-menu .panel-default>.panel-heading a.collapsed>.caret,
+    .slide-menu ul.innerMenu li a.collapsed .caret,
+    .slide-menu .panel-default>.panel-heading .panel-title>a .caret,
+    .slide-menu ul.innerMenu li a .caret {
+        position: absolute;
+        right: 10px;
+        bottom: 15px;
+    }
+    /*********  END OF CSS for LEFT SIDE MENU ***********/
+    .header .headerSearch .form-control {
+        width: 40%;
+    }
+    .header .headerSearch .form-control:focus {
+        width: 100%;
+    }
+    .body-content .well .panel-content .modal .modal-dialog {
+        width: 80%;
+    }
+    .body-content .form-well {
+        padding: 5%;
+    }
+    .gridBody {
+        width: 100%;
+    }
+    .formContent {
+        width: 100%;
+    }
+}
+
+
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+
+@media screen and (max-width:980px) {
+    .tab-nopadding {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .tab-padd-left-zero {
+        padding-left: 0px !important;
+    }
+    .tab-padd-right-zero {
+        padding-right: 0px !important;
+    }
+    .tab-padd-left-15 {
+        padding-left: 15px !important;
+    }
+    .tab-padd-right-15 {
+        padding-right: 15px !important;
+    }
+    .tab-extra-margin {
+        margin-top: 10px !important;
+    }
+    .header .headerSearch {
+        width: 85%;
+    }
+    .dash-content .dash .dashbox h1,
+    .dash-content .dash .dashboxContent .contentBg,
+    .dash-content .dash .dashboxContent .contentBgLight {
+        font-size: 34px;
+    }
+    /*********  CSS for LEFT SIDE MENU ***********/
+    .mainMenu .navbar .navbar-nav>li {
+        width: 100%;
+    }
+    .mainMenu .navbar-default .navbar-nav>li:empty,
+    .mainMenu .navbar-default .navbar-nav>li.active::after {
+        display: none;
+    }
+    /*********  END OF CSS for LEFT SIDE MENU ***********/
+}
+
+
+/************************************************************************************
+smaller than 800
+*************************************************************************************/
+
+@media screen and (max-width:800px) {
+    ul.loginTopMenu li .dropdown-menu {
+        right: unset;
+        left: 0;
+    }
+}
+
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+
+@media screen and (max-width:768px) {
+    .log-bg {
+        width: 60%;
+    }
+    .homeBody h4 {
+        width: 90%;
+    }
+    .reg-bg {
+        width: 90%;
+    }
+    .reg-bg .formBody .sb-btn {
+        width: 100%;
+    }
+}
+
+
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+
+@media screen and (max-width: 650px) {
+    .mob-nopadding {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .mob-extra-margin {
+        margin-top: 10px !important;
+    }
+    .header .headerSearch .form-control:focus {
+        padding-left: 35px;
+    }
+    .log-bg {
+        width: 80%;
+        margin-top: 5%;
+    }
+    ul.loginTopMenu {
+        float: left;
+    }
+    /*********  CSS for LEFT SIDE MENU ***********/
+    .main .left-col {
+        margin-left: -45%;
+    }
+    .main .left-col.open {
+        width: 80% !important;
+    }
+    .main .right-col .left-toggle {
+        top: 70px;
+    }
+    .main .right-col.open .left-toggle {
+        left: 80%;
+        position: absolute;
+        top: 70px;
+    }
+    /*********  END OF CSS for LEFT SIDE MENU ***********/
+    .header ul.top-menu>li {
+        margin: 0px 10px;
+        padding: 15px 0px;
+    }
+    .dash-content .btn-group .btn-default .fa {
+        margin-right: 0px;
+    }
+    .formContent {
+        padding: 10px;
+    }
+    .formContent .panel-body label {
+        float: left;
+    }
+    .header .top-menu a {
+        font-size: 20px;
+    }
+    .header .top-menu a span.txtValue {
+        top: -5px;
+        left: 0;
+        position: relative;
+        color: #333;
+    }
+}
+
+
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+
+@media screen and (max-width: 480px) {
+    .mob-nopadding {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .mob-extra-margin {
+        margin-top: 10px !important;
+    }
+    .log-bg {
+        width: 90%;
+        min-height: 200px;
+        text-align: center;
+        margin: 15px auto;
+    }
+    .log-bg .log-bg-body {
+        padding: 5px 0px 15px;
+    }
+    .header .top-menu a {
+        font-size: 18px;
+    }
+    .body-content .well .panel-content .add-link {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        display: block;
+    }
+    /*********  CSS for LEFT SIDE MENU ***********/
+    .main .left-col {
+        margin-left: -55%;
+    }
+    .main .left-col.open {
+        width: 80% !important;
+    }
+    .main .right-col .left-toggle {
+        top: 70px;
+    }
+    .main .right-col.open .left-toggle {
+        left: 80%;
+        position: absolute;
+        top: 70px;
+    }
+    /*********  END OF CSS for LEFT SIDE MENU ***********/
+}
+
+
+/************************************************************************************
+smaller than 414
+*************************************************************************************/
+
+@media screen and (max-width: 414px) {}
+
+
+/************************************************************************************
+smaller than 384px
+*************************************************************************************/
+
+@media screen and (max-width: 384px) {}
+
+
+/************************************************************************************
+smaller than 360
+*************************************************************************************/
+
+@media screen and (max-width: 360px) {}
+
+
+/************************************************************************************
+smaller than 320
+*************************************************************************************/
+
+@media screen and (max-width: 320px) {
+    .header ul.top-menu>li {
+        margin: 0px 10px 0px 0px;
+    }
+    .header .headerSearch {
+        width: 75%;
+    }
+    .header .headerSearch .form-control {
+        width: 100%;
+    }
+}

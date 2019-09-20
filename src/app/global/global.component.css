@@ -1,0 +1,90 @@
+ .selectSearch {    /* background-color: #999; */
+    display: block;
+    padding: 13px 5px;
+    z-index: 9999999;
+    width: 25px;
+    position: absolute;
+    right: 15px;
+    height: 48px;
+    color: #333;
+    /* border-right: 1px solid #ddd; */
+}
+
+ .input-group {
+    margin: 0 auto;
+}
+
+ .input-group.search-group {
+    margin: 0 auto;
+    width: 70%;
+    background-image: url('../../assets/images/search-25x25.png');
+    background-position: 10px 13px;
+    padding-left: 45px;
+    border-color: #283C55;
+    background-repeat: no-repeat;
+    border: 1px solid #283C55;
+    /* border-right-color: white;  */
+    height: 52px;
+}
+
+ .input-group .search-ddl-input.input-group {
+    width: 100%;
+}
+
+.searchBox {
+    margin-left: 15px;
+    padding: 0px;
+    left: -16px;
+    right: 0px;
+    top: 45px !important;
+}
+
+ .input-group .form-control[type=search] {
+    background-image: url('../../assets/images/search-25x25.png');
+    background-position: 10px 13px;
+    padding-left: 45px;
+    border-color: #283C55;
+    background-repeat: no-repeat;
+    border: 1px solid #283C55;
+    /* border-right-color: white;  */
+    height: 52px;
+}
+ .formsubBtn,
+ .addBtn {
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    color: #eee;
+    font-size: 14px;
+    padding: 4px 15px;
+    background-color: #618afe;
+    width: auto;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+ .formsubBtn:hover,
+ .formsubBtn:focus,
+ .addBtn:hover,
+ .addBtn:focus {
+    color: #fff;
+    background-color: #19499D;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+ .log-bg-body .btn-switch {
+    float: none !important;
+}
+.form-group{
+    max-width: 85%;
+    align-self: center;
+}
+.margintop5 {
+    margin-top: 5px;
+}
